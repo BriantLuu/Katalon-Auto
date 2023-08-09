@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteCollectionEntity>
    <description></description>
-   <name>TSC001</name>
+   <name>TSC002</name>
    <tag></tag>
    <delayBetweenInstances>0</delayBetweenInstances>
-   <executionMode>PARALLEL</executionMode>
-   <maxConcurrentInstances>1</maxConcurrentInstances>
+   <executionMode>SEQUENTIAL</executionMode>
+   <maxConcurrentInstances>8</maxConcurrentInstances>
    <testSuiteRunConfigurations>
       <TestSuiteRunConfiguration>
          <configuration>
